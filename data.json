@@ -1,0 +1,169 @@
+{
+    "automoviles": [
+        {
+            "marca": "Audi",
+            "modelos": [
+                {
+                    "modelo": "R8 Coupe",
+                    "tipo_motor": "V10 5.2 litros",
+                    "precio": "$150.000 USD",
+                    "foto": "imagenes_marcas/AR8.png",
+                    "descripcion": "610 HP Aceleración de 0 a 100 km/h en 3.1 segundos, con una velocidad máxima de 331 km/h."
+                },
+                {
+                    "modelo": "Audi TT RS",
+                    "tipo_motor": "2.5 litros TFSI de 5 cilindros",
+                    "precio": "$73,000 USD",
+                    "foto": "imagenes_marcas/ATTRS.png",
+                    "descripcion": "400 HP Aceleración de 0 a 100 km/h en 3.7 segundos, con una velocidad máxima de hasta 280 km/h."
+                },
+				{
+                    "modelo": "Audi Q8",
+                    "tipo_motor": "V6 de 3.0 litros",
+                    "precio": "$150.000 USD",
+                    "foto": "imagenes_marcas/AQ8.png",
+                    "descripcion": "340 HP Aceleración de 0 a 100 km/h en 5.6 segundos, velocidad máxima limitada a 250 km/h."
+                },
+                {
+                   "modelo": "Audi RS3",
+                    "tipo_motor": " 2.5 litros de 5 cilindros en línea",
+                    "precio": "$60,000 USD",
+                    "foto": "imagenes_marcas/ARS3.png",
+                    "descripcion": "400 HP Aceleración de 0 a 100 km/h en 3.8 segundos, con una velocidad máxima de hasta 290 km/h."
+                }
+            ]
+        },
+        {
+            "marca": "Ferrari",
+            "modelos": [
+                {
+                    "modelo": "LaFerrari",
+                    "tipo_motor": "Combina un motor V12 de 6.3 litros con un motor eléctrico",
+                    "precio": "$1.4 Millones USD",
+                    "foto": "imagenes_marcas/FLAFERRARI.png",
+                    "descripcion": "950 HP 0 a 100 km/h en aproximadamente 2.6 segundos, con una velocidad máxima de 350 km/h."
+                },
+                {
+                    "modelo": "Enzo Ferrari",
+                    "tipo_motor": "Motor V12 de 6.0 litros",
+                    "precio": "$650.000 USD",
+                    "foto": "imagenes_marcas/FEnzoFerrari.png",
+                    "descripcion": "651 HP Aceleración de 0 a 100 km/h en 3.3 segundos, con una velocidad máxima de 331 km/h."
+                },
+				{
+		    		"modelo": "California",
+                    "tipo_motor": " V8 Turbo de 4.3 litros",
+                    "precio": "$200.000 USD",
+                    "foto": "imagenes_marcas/FCALIFORNIA.png",
+                    "descripcion": "453 HP Aceleración de 0 a 100 km/h en 3.6 segundos, con una velocidad máxima de 315 km/h."
+				},
+				{
+		    		"modelo": "488 Pista",
+                    "tipo_motor": "V8 biturbo de 3.9 litros",
+                    "precio": "$330.000 USD",
+                    "foto": "imagenes_marcas/F488Pista.png",
+                    "descripcion": "711 HP Aceleración de 0 a 100 km/h en 2.8 segundos, con una velocidad máxima de 340 km/h."
+				 }
+            ]
+        },
+        {
+            "marca": "Mercedes-Benz",
+            "modelos": [
+                {
+                    "modelo": "E 63 AMG",
+                    "tipo_motor": "V8 biturbo de 4.0 litros",
+                    "precio": "$110.000 USD",
+                    "foto": "imagenes_marcas/ME65AMG.png",
+                    "descripcion": "612 HP Aceleración de 0 a 100 km/h en 3.4 segundos, con una velocidad máxima de 300 km/h."
+                },
+                {
+                    "modelo": "SLS AMG",
+                    "tipo_motor": "V8 atmosférico de 6.2 litros",
+                    "precio": "$200.000 USD",
+                    "foto": "imagenes_marcas/MSLSAMG.png",
+                    "descripcion": "571 HP Aceleración de 0 a 100 km/h en 3.8 segundos, con una velocidad máxima de 317 km/h."
+                },
+                {
+                    "modelo": "CLA V200",
+                    "tipo_motor": "I4 turbo de 1.3 litros",
+                    "precio": "$45.000 USD",
+                    "foto": "imagenes_marcas/MA200.png",
+                    "descripcion": "163 HP Aceleración de 0 a 100 km/h en 7.1 segundos, con una velocidad máxima de 240 km/h."
+		        },
+		        {
+		            "modelo": "AMG ONE",
+                    "tipo_motor": "V10 de 5.2 litros",
+                    "precio": "$2.72 millones USD",
+                    "foto": "imagenes_marcas/MAMGONE.png",
+                    "descripcion": "1063 HP Aceleración de 0 a 100 km/h en 2.7 segundos, con una velocidad máxima de 352 km/h."
+		        }
+            ]
+        },
+        {
+            "marca": "Pagani",
+            "modelos": [
+                {
+                    "modelo": "Zonda Cinque Roadster (Black Edition)",
+                    "tipo_motor": "V12 de 7.3 litros",
+                    "precio": "$2.5 millones EUR",
+                    "foto": "imagenes_marcas/pagani.jpg",
+                    "descripcion": "678 HP Aceleración de 0 a 100 km/h en 3.4 segundos, con una velocidad máxima de 350 km/h."
+                },
+                {
+                    "modelo": "Huayra",
+                    "tipo_motor": "V12 Biturbo de 6.0 litros",
+                    "precio": "$2.6 millones EUR",
+                    "foto": "imagenes_marcas/PAGHuayra.png",
+                    "descripcion": "720 HP Aceleración de 0 a 100 km/h en 3.2 segundos, con una velocidad máxima de 370 km/h."
+                },
+                {
+                   "modelo": "Zonda Cinque",
+                    "tipo_motor": "V12 de 7.3 litros",
+                    "precio": "$1.85 millones EUR",
+                    "foto": "imagenes_marcas/PAGZondaCinque.png",
+                    "descripcion": "678 HP Aceleración de 0 a 100 km/h en 3.4 segundos, con una velocidad máxima de 340 km/h."
+                },
+                {
+                    "modelo": "Huayra BC",
+                    "tipo_motor": "V12 6.0 litros",
+                    "precio": "$2.8 millones EUR",
+                    "foto": "imagenes_marcas/PAGHuayraBC.png",
+                    "descripcion": "800 HP Aceleración de 0 a 100 km/h en 2.8 segundos, con una velocidad máxima de 370 km/h."
+				}
+            ]
+        },
+        {
+            "marca": "Porsche",
+            "modelos": [
+                {
+                    "modelo": "911 GT3 RS",
+                    "tipo_motor": "Motor bóxer de 6 cilindros de 4.0 Litros",
+                    "precio": "$229.000 USD",
+                    "foto": "imagenes_marcas/911GT3RS.png",
+                    "descripcion": "518 HP Aceleración de 0 a 100 km/h en 3 segundos, con una velocidad máxima de 312 km/h."
+				},
+				{
+                    "modelo": "918 Spyder",
+                    "tipo_motor": "V8 + Motor electrico de 4.6 Litros",
+                    "precio": "$845.000 USD",
+                    "foto": "imagenes_marcas/P918Spyder.png",
+                    "descripcion": "887 HP Aceleración de 0 a 100 km/h en 2.6 segundos, con una velocidad máxima de 340 km/h."
+                },
+                {
+                    "modelo": "Carrera GT",
+                    "tipo_motor": "V10 5.7 litros",
+                    "precio": "$440.000 USD",
+                    "foto": "imagenes_marcas/PCarreraGT.png",
+                    "descripcion": "605 HP Aceleración de 0 a 100 km/h en 3.9 segundos, con una velocidad máxima de 335 km/h."
+                },
+				{
+		   			 "modelo": "992 GT3 RS",
+                    "tipo_motor": "Motor bóxer de 6 cilindros de 4.0 Litros",
+                    "precio": "$250.000",
+                    "foto": "imagenes_marcas/P992.png",
+                    "descripcion": "518 HP Aceleración de 0 a 100 km/h en 3.0 segundos, con una velocidad máxima de 318 km/h."
+				}
+            ]
+        }
+    ]
+}

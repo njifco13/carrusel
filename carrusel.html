@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Carrusel</title>
+</head>
+
+<body>
+    <section id="galeria-marcas">
+        <img src="imagenes_marcas/Audi (1).jpg" data-marca="Audi">
+        <img src="imagenes_marcas/ferrari.jpg" data-marca="Ferrari">
+        <img src="imagenes_marcas/mercedes.jpg" data-marca="Mercedes-Benz">
+        <img src="imagenes_marcas/pagani.jpg" data-marca="Pagani">
+        <img src="imagenes_marcas/porshe.jpg" data-marca="Porsche">
+    </section>
+    <div class="contenedor">
+        <form action="">
+            <div class="selectbox">
+                <div class="select " id="select">
+                    <div class="contenido-select">
+                        <h1 class="titulo">¡Escoge tu favorito!</h1>
+                        <p class="descripcion"></p>
+                    </div>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+
+                <div class="opciones" id="opciones">
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes_marcas/iAudi.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo">Audi</h1>
+                                <p class="descripcion">Marca alemana conocida por su tecnología avanzada, tracción
+                                    Quattro y diseño elegante.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes_marcas/iFerrari.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo">Ferrari</h1>
+                                <p class="descripcion">Fabricante italiano de autos deportivos de lujo con enfoque en
+                                    alto rendimiento y estilo icónico.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes_marcas/iMercedes.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo">Mercedes-Benz</h1>
+                                <p class="descripcion">Marca alemana reconocida por sus vehículos de lujo, innovación
+                                    tecnológica y confort.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes_marcas/iPagani.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo">Pagani</h1>
+                                <p class="descripcion">Marca italiana boutique que produce superdeportivos exclusivos
+                                    con atención extrema al detalle y a la ingeniería.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes_marcas/iPorsche.png" alt="">
+                            <div class="textos">
+                                <h1 class="titulo">Porsche</h1>
+                                <p class="descripcion"> Fabricante alemán de autos deportivos, famosos por su
+                                    rendimiento en carretera y diseño atemporal.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="opcion">
+                        <div class="contenido-opcion">
+                            <img src="imagenes_marcas/Logos.jpg" alt="">
+                            <div class="textos">
+                                <h1 class="titulo">Todos</h1>
+                                <p class="descripcion"> Muestra todos los vehiculos sin 
+                                    importar la Marca.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <input type="hidden" name="carro" id="inputSelect" value="">
+        </form>
+    </div>
+    <table id="automoviles">
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Tipo de motor</th>
+                <th>Precio</th>
+                <th>Descripción</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Los datos se cargarán aquí -->
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
